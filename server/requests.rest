@@ -3,15 +3,20 @@
 
 # {
 #     "fullname" : "john",
-#     "email" : "john@gmail.com",
+#     "email" : "john99@gmail.com",
 #     "password" : "John@123"
 # }
 
 #GET http://localhost:3000/get-upload-url
 
-POST http://localhost:3000/create-blog
-Content-Type: application/json
+# POST http://localhost:3000/create-blog
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ODkwMzBmOGZkMjljZjgzZDU3Y2NiMSIsImlhdCI6MTcwMzQ3ODAzMn0.m9svZg0ki7iWGtYteqaF-8D214GSUXu0A49ceUTVF90
 
-{
-    "title": "test title"
-}
+# {
+#     "title": "this is a test title"
+# }
+
+#eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ODhmYWYwODQ4Y2NiZWE1OWRhYjNhNSIsImlhdCI6MTcwMzQ3NTk1Mn0.RTgy8z1S0qOjT3Cuf-i3C2eE4pAmBui2puarKgrVepQ
+
+GET http://localhost:3000/latest-blogs
